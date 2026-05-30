@@ -5,7 +5,7 @@ import{LayoutDashboard,Package,ArrowLeftRight,Users,Wrench,History,Plus,Trash2,P
 const TABLE='almox_database';
 const RECORD='fosso_aod_villares';
 const DBKEY='tpcons_almox_v1';
-const SUPA_URL='https://qltkepywsfvwwooroit.supabase.co';
+const SUPA_URL='https://qltkepywsfvwwoorooit.supabase.co';
 const SUPA_KEY='sb_publishable_M7B7NLCNR5RvdNl2oINabw_FK2lUph3';
 
 function hash(v){let h=0,s='TPCONS_'+v;for(let i=0;i<s.length;i++)h=((h<<5)-h+s.charCodeAt(i))|0;return'h_'+Math.abs(h)}
